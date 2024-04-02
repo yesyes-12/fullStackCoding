@@ -49,3 +49,4 @@ writter = csv.writer(file)  #csv파일 쓰기
 writter.writerow(["Title","Company","Reward","Link"]) #첫줄에 쓰기
 for job in job_db:
     writter.writerow(job.values()) #job의 values를 리스트로 변환하여 쓰기
+file.close() #파일 닫기
