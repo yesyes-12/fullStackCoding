@@ -99,8 +99,20 @@ class JobScraper:
         file.close()
 
 # Usage
-keyword = ["flutter", "python", "nextjs", "kotlin"]
+keyword = ["flutter", "python"]
 
-for kw in keyword:
-    scraper = JobScraper(kw)
-    scraper.scrape_jobs()
+#for kw in keyword:
+#    scraper = JobScraper(kw)
+#    scraper.scrape_jobs()
+    
+python = JobScraper("python")
+flutter = JobScraper("flutter")
+jobssss = python+flutter
+
+file =open("total_jobs.csv","w",encoding="utf-8")
+file.write("Title,Company,Reward,Link\n")
+for job in jobssss:
+    file.write(
+        f"{job['title']},{job['company']},{job['reward']},{job['link']}\n"
+    )
+file.close()
