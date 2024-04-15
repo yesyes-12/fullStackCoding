@@ -14,3 +14,20 @@
   border-radius: 35%;
   margin-right: 20px;
 }
+.user-component__username {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.user-component__status {
+  margin-top: 7px;
+  font-size: 16px;
+  color: #2e363e;
+}
+
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+  border-radius: 35%;
+  margin-right: 20px;
+}
