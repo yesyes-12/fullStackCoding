@@ -1,0 +1,29 @@
+.settings-setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings-setting:nth-child(3) {
+  border-bottom: none;
+}
+
+.settings-setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.settings-setting__column:last-child {
+  opacity: 0.5;
+}
+
+.settings-list .divider {
+  width: 100%;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 25px 0;
+}
