@@ -1,0 +1,10 @@
+.top-bar {
+  text-align: right;
+}
+
+.top-bar > * {
+  position: relative;
+  display: inline-block;
+  margin: 3px;
+  font-size: 16px;
+}

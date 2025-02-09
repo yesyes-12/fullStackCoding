@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 , user-scalable=no"
+    />
+    <title>Kakao Talk Clone Coding</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="fontello-c02ec0c7/css/fontello.css" />
+    <script
+      src="https://kit.fontawesome.com/1c9ffd6520.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="outer">
+      <ul class="top-bar">
+        <li><i class="icon-cog-outline"></i></li>
+        <li><i class="icon-minus"></i></li>
+        <li><i class="icon-cancel-1"></i></li>
+      </ul>
+
+      <header class="header" role="banner">
+        <img
+          class="klogo"
+          src="screenshots/free-icon-kakao-talk-2111466.png"
+          alt="Kakaotalk Logo"
+        />
+      </header>
+
+      <form id="login_form">
+        <div class="login_box">
+          <div class="input_item id">
+            <input
+              type="text"
+              id="id"
+              class="input_id"
+              placeholder="카카오계정 (이메일 또는 전화번호)"
+            />
+          </div>
+          <div class="input_item pw">
+            <input
+              type="password"
+              id="pw"
+              class="input_pw"
+              placeholder="비밀번호"
+            />
+          </div>
+        </div>
+        <div class="btn_login_wrap">
+          <input type="submit" class="btn_login" value="로그인" />
+        </div>
+        <div class="dividing_safe">
+          <span class="text">또는</span>
+        </div>
+        <div class="btn_qr-login">
+          <button class="qr-login" type="button">
+            <i class="icon-qrcode-1"></i> QR코드 로그인
+          </button>
+        </div>
+        <div class="login_keep">
+          <label class="custom-checkbox"
+            ><input
+              type="checkbox"
+              id="keep"
+              name="klog"
+              class="input_keep"
+              value="off"
+            />
+            <span class="checkmark"></span>자동 로그인 </label
+          ><i class="icon-info-circled-alt"></i>
+        </div>
+      </form>
+
+      <ul class="find_wrap">
+        <li><a href="#">카카오계정 찾기</a></li>
+        <li><a href="#">비밀번호 재설정</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
