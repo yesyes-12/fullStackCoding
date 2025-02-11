@@ -1,0 +1,29 @@
+.window-bar {
+  text-align: right;
+}
+
+.window-bar > * {
+  position: relative;
+  display: inline-block;
+  margin: 3px;
+  font-size: 16px;
+  color: #9b9b9b;
+}
+
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  align-items: center;
+}
+
+.header__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header__tab-list > * {
+  display: inline-block;
+  font-size: 20px;
+  margin: 3px;
+}
