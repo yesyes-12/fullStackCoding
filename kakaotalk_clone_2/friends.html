@@ -7,14 +7,14 @@
       content="width=device-width, initial-scale=1.0 , user-scalable=no"
     />
     <title>Friends:KakaoTalk Clone Coding</title>
-    <link rel="stylesheet" href="css/.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="fontello-c02ec0c7/css/fontello.css" />
     <script
       src="https://kit.fontawesome.com/1c9ffd6520.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body id="root">
     <nav class="nav">
       <div class="nav__wrap">
         <ul class="nav__list">
@@ -22,21 +22,37 @@
             <a class="nav__a" href="friends.html"><i class="icon-user"></i></a>
           </li>
           <li class="nav__link">
-            <a class="nav__a" href="#"><i class="icon-chat"></i></a>
+            <a class="nav__a" href="#"
+              ><span class="nav__text">1</span><i class="icon-chat"></i
+            ></a>
           </li>
           <li class="nav__link">
-            <a class="nav__a" href="#"><i class="icon-dot-3"></i></a>
+            <div class="nav__noti">
+              <a class="nav__a" href="#"><i class="icon-dot-3"></i></a>
+            </div>
           </li>
         </ul>
       </div>
       <div class="nav__footer">
-        <ul>
-          <li><i class="icon-smile"></i></li>
-          <li><i class="icon-bell"></i></li>
-          <li><i class="icon-cog-outline"></i></li>
+        <ul class="nav__list">
+          <li class="nav__link"><i class="icon-smile"></i></li>
+          <li class="nav__link"><i class="icon-bell"></i></li>
+          <li class="nav__link"><i class="icon-cog-outline"></i></li>
         </ul>
       </div>
     </nav>
-    <div class="wrap"></div>
+    <div class="screen">
+      <header class="screen-header">
+        <h1 class="header__title">친구ㄹㄹㄹㄹㄹㄹㄹㄹ</h1>
+        <div class="header__tab">
+          <ul class="header__tab-list">
+            <li class="header__tab-list-item"><i class="icon-search"></i></li>
+            <li class="header__tab-list-item">
+              <i class="icon-user-add-outline"></i>
+            </li>
+          </ul>
+        </div>
+      </header>
+    </div>
   </body>
 </html>
