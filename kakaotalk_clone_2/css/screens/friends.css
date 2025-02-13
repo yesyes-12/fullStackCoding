@@ -3,8 +3,85 @@
   height: 100%;
   overflow: auto;
   color: #000000;
+  min-width: 390px;
 }
 
 .screen {
   margin-left: 65px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  color: #8a8a8a;
+  padding: 0 10px;
+}
+
+.updated-profile,
+.friends-profile {
+  margin-top: 10px;
+}
+
+.profile__header {
+  margin-bottom: 15px;
+  font-size: 11px;
+  color: #8a8a8a;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile__header i {
+  padding-right: 5px;
+}
+
+.updated-profile__list {
+  display: flex;
+  width: auto;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.updated-profile__list li {
+  position: relative;
+}
+
+.updated-profile__tab {
+  text-align: center;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+
+.updated-profile__tab::before {
+  content: "";
+  background: #f4551e;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.updated-profile__text {
+  margin-top: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  position: relative;
+}
+
+.updated-profile__name {
+  display: inline-block;
+  max-width: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.profile-list__item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
 }

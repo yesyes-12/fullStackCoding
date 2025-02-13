@@ -1,0 +1,77 @@
+.user-profile,
+.updated-profile,
+.friends-profile {
+  justify-content: space-between;
+  margin: 0 10px 0 20px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.user-profile,
+.user-profile__etc,
+.user-profile__tab:first-child,
+.friends__tab {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile__img {
+  width: 40px;
+  height: 40px;
+  border-radius: 43%;
+  cursor: pointer;
+}
+
+.user-profile__text {
+  margin-left: 10px;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.user-profile__name {
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+.user-profile__message {
+  color: #8a8a8a;
+}
+
+.user-profile__img--xl {
+  width: 53px;
+  height: 53px;
+}
+
+.user-profile__img--xs {
+  width: 23px;
+  height: 23px;
+  margin-right: 5px;
+}
+
+.user-profile__tab {
+  min-width: 120px;
+  padding-right: 10px;
+}
+
+.user-profile__etc {
+  min-width: 50px;
+}
+
+.user-profile__music {
+  display: flex;
+  box-sizing: border-box;
+  border: 1.4px solid #06cf40;
+  border-radius: 30px;
+  padding: 6px;
+  font-size: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.user-profile__music-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
