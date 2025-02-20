@@ -9,3 +9,4 @@
 /* Screens */
 @import "./screens/login.css";
 @import "./screens/friends.css";
+@import "./screens/chats.css";

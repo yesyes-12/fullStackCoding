@@ -1,0 +1,23 @@
+.user-profile__column {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.time {
+  color: #8a8a8a;
+  font-size: 11px;
+  position: relative;
+  margin-bottom: 7px;
+}
+
+.messeges {
+  text-align: center;
+  background-color: #f4551e;
+  width: 16px;
+  height: 16px;
+  display: block;
+  border-radius: 50%;
+  font-size: 12px;
+  color: #ececed;
+}
