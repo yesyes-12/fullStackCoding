@@ -105,7 +105,8 @@ body {
   margin-top: 15px;
   position: relative;
 }
-.icon-info-circled-alt {
+
+.login_keep .icon-info-circled-alt {
   font-size: 20px;
   position: absolute;
   top: 5px;

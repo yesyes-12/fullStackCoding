@@ -1,0 +1,71 @@
+.certificate {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  background-color: #fafafa;
+  margin: 0 20px;
+}
+
+.certificate__profile {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.certificate__name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.icon-shield {
+  font-size: 25px;
+}
+
+.certificate__tab,
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7px;
+}
+
+.subscribe {
+  font-size: 12px;
+  padding: 12px 20px;
+}
+
+.icons {
+  margin: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.icon-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-row li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.icon-row__icon i {
+  font-size: 23px;
+  padding-bottom: 13px;
+}
+
+.icon-row__icon span {
+  font-size: 12px;
+  color: #8a8a8a;
+}
+
+.version {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.version span {
+  color: #8a8a8a;
+}
